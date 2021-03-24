@@ -1,0 +1,40 @@
+html{
+	box-sizing: border-box;
+}
+*,*:before,*:after{
+	box-sizing: inherit;
+}
+body{
+	color: #000;
+	font-family: 'Geometria Regular';
+	font-size: 16px;
+	line-height: 26px;
+}
+.container{
+	width: 1140px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.btn{
+	display: inline-block;
+	outline: none;
+	background-color: $blueColor;
+	padding: 18px 0 18px 0;
+	color:#fff;
+	border: none;
+	transition: .3s;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.title{
+	font-family: 'Geometria Heavy';
+	font-size: 35px;
+	line-height: 48px;
+	padding-bottom: 25px;
+	text-align: center;
+	}
+.description{
+	font-size:22px;
+	line-height: 36px;
+	text-align: center;
+	}

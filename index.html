@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blitz</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" href="style/Fonts/fonts.css">
+    <link rel="stylesheet" href="style/Style.css">
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <nav class="menu">
+                    <div class="menu__burger-inner">
+                        <span class="menu__burger"></span>
+                        <p class="menu__title">Меню</p>
+                    </div>
+                    <div class="menu__container">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Апартаменты</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <a class="logo" href="#">
+                    <img class="logo__img" src="pics/logo.svg" alt="logo">
+                    <p class="logo__text">Продажа недвижимости<br> в Москва-Сити</p>
+                </a>
+                <div class="contacts">
+                    <a href="tel:+74951991999" class="contacts__tel">+7 (495) 199-19-99</a>
+                    <button class="contacts__btn">Заказать звонок</button>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <h1 class="header__title">Агентство<br class="header__br"> с международным именем Blitz Estate</h1>
+                <p class="header__description">Поможем продать, купить и арендовать недвижимость в Москве, районе Сити и области</p>
+                <div class="header__info">
+                    <div class="header__item">
+                        <div class="header__count">17</div>
+                        <div class="header__count-text">Работаем в<br class="header__br"> 17 странах</div>
+                    </div>
+                    <div class="header__item">
+                        <div class="header__count">1963</div>
+                        <div class="header__count-text">Помогли 1963-м<br class="header__br"> клиентам</div>
+                    </div>
+                    <div class="header__item">
+                        <div class="header__count">10</div>
+                        <div class="header__count-text">Лет на рынке<br class="header__br"> недвижимости</div>
+                    </div>
+                </div>
+                <div class="header__test">
+                    <img class="header__test-icon" src="pics/shampain.svg" alt="shampain logo">
+                    <p class="header__test-text">Пройди тест и получи в подарок бутылку<br> шампанского <span>Veuve Clicquot</span>
+                </div>
+                <a class="btn header__btn" href="#">Подобрать недвижимость</a>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="test">
+        <div class="container">
+            <h2 class="title">Пройдити тест из 5 вопросов</h2>
+            <p class="description">Мы подберём 20 покупателей готовых купить вашу недвижимость в течение 24 часов</p>
+            <div class="test__inner">
+                <div class="slider">
+                    <div class="slider__inner">
+                        <input type="radio" name="q1" class="slider__radio" id="q1-1">
+                        <input type="radio" name="q1" class="slider__radio" id="q1-2">
+                        <h3 class="slider__question">Выберите местоположение объекта</h3>
+                        <div class="slider__answers">
+                            <label for="q1-1" class="slider__answer">
+                                <div class="slider__img"><img class="img" src="pics/test-q1-1.png" alt=""></div>
+                                <p class="slider__text">В России</p>
+                            </label>
+                            <label for="q1-2" class="slider__answer">
+                                <div class="slider__img"><img class="img" src="pics/test-q1-2.png" alt=""></div>
+                                <p class="slider__text">За границой</p>
+                            </label>
+                        </div>
+                    </div>
+                <div class="slider__inner">
+                        <input type="radio" name="q2" class="slider__radio" id="q2-1">
+                        <input type="radio" name="q2" class="slider__radio" id="q2-2">
+                        <h3 class="slider__question">Выберите местоположение объекта</h3>
+                        <div class="slider__answers">
+                            <label for="q2-1" class="slider__answer">
+                                <div class="slider__img"><img class="img" src="pics/test-q1-2.png" alt=""></div>
+                                <p class="slider__text">За границой</p>
+                            </label>
+                            <label for="q2-2" class="slider__answer">
+                                <div class="slider__img"><img class="img" src="pics/test-q1-1.png" alt=""></div>
+                                <p class="slider__text">В России</p>
+                            </label>
+                        </div>
+                </div>
+                <div class="slider__inner">
+                    <input type="radio" name="q3" class="slider__radio" id="q3-1">
+                    <input type="radio" name="q3" class="slider__radio" id="q3-2">
+                    <h3 class="slider__question">Выберите местоположение объекта</h3>
+                    <div class="slider__answers">
+                        <label for="q3-1" class="slider__answer">
+                            <div class="slider__img"><img class="img" src="pics/test-q1-1.png" alt=""></div>
+                            <p class="slider__text">В России</p>
+                        </label>
+                        <label for="q3-2" class="slider__answer">
+                            <div class="slider__img"><img class="img" src="pics/test-q1-2.png" alt=""></div>
+                            <p class="slider__text">За границой</p>
+                        </label>
+                    </div>
+                </div>
+                <div class="slider__inner">
+                    <input type="radio" name="q4" class="slider__radio" id="q4-1">
+                    <input type="radio" name="q4" class="slider__radio" id="q4-2">
+                    <h3 class="slider__question">Выберите местоположение объекта</h3>
+                    <div class="slider__answers">
+                        <label for="q4-1" class="slider__answer">
+                            <div class="slider__img"><img class="img" src="pics/test-q1-1.png" alt=""></div>
+                            <p class="slider__text">В России</p>
+                        </label>
+                        <label for="q4-2" class="slider__answer">
+                            <div class="slider__img"><img class="img" src="pics/test-q1-2.png" alt=""></div>
+                            <p class="slider__text">За границой</p>
+                        </label>
+                    </div>
+                </div>
+                <div class="slider__inner">
+                    <input type="radio" name="q5" class="slider__radio" id="q5-1">
+                    <input type="radio" name="q5" class="slider__radio" id="q5-2" >
+                    <h3 class="slider__question">Выберите местоположение объекта</h3>
+                    <div class="slider__answers">
+                        <label for="q5-1" class="slider__answer">
+                            <div class="slider__img"><img class="img" src="pics/test-q1-1.png" alt=""></div>
+                            <p class="slider__text">В России</p>
+                        </label>
+                        <label for="q5-2" class="slider__answer">
+                            <div class="slider__img"><img class="img" src="pics/test-q1-2.png" alt=""></div>
+                            <p class="slider__text">За границой</p>
+                        </label>
+                    </div>
+                </div>
+                </div>
+
+                <div class="slider__count">
+                    <p class="slider__coint-text">Вы ответили на: <span class="slider__number">0</span>/5 вопросов</p>
+                    <div class="slider__btns">
+                        <button class="slider__btn slider__btn-prev">Назад</button>
+                        <button class="slider__btn slider__btn-next">Продолжить</button>
+                    </div>
+                </div>
+                <div class="test__check">
+                    <div class="test__check-item">
+                        <img src="pics/check-icon.svg" alt="" class="test__check-icon">
+                        <p class="test__check-text">Поможем Вам приобрести, продать или арендовать необходимую недвижимость</p>
+                    </div>
+                    <div class="test__check-item">
+                        <img src="pics/check-icon.svg" alt="" class="test__check-icon">
+                        <p class="test__check-text">Продадим вашу недвижимость за 21 день или выкупим сами по стоимостьи в договоре</p>
+                    </div>
+                    <div class="test__check-item">
+                        <img src="pics/check-icon.svg" alt="" class="test__check-icon">
+                        <p class="test__check-text">Забронируем понравившуюся квартиру и зафиксируем стоимость для вас на момент бронирования</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="services">
+        <div class="container">
+            <h2 class="title">Наши услуги на международном рынке</h2>
+            <div class="services__grid">
+                <div class="services__item">
+                    <div class="services__inner">
+                        <div class="services__title">Жилая недвижимость</div>
+                        <p class="services__description">Сопровождение сделок по продаже, купли и аренде объектов недвижимости под ключ.</p>
+                        <a class="services__btn btn" href="#">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__inner">
+                        <h3 class="services__title">Доходная недвижимость</h3>
+                        <p class="services__description">Сопровождение сделок по продаже, купли и аренде объектов недвижимости под ключ.</p>
+                        <a class="services__btn btn" href="#">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__inner">
+                        <h3 class="services__title">Инвестиционные операции</h3>
+                        <p class="services__description">Сопровождение сделок по продаже, купли и аренде объектов недвижимости под ключ.</p>
+                        <a class="services__btn btn" href="#">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__inner">
+                        <h3 class="services__title">Покупка яхт</h3>
+                        <p class="services__description">Сопровождение сделок по продаже, купли и аренде объектов недвижимости под ключ.</p>
+                        <a class="services__btn btn" href="#">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__inner">
+                        <h3 class="services__title">Доверительное управление</h3>
+                        <p class="services__description">Сопровождение сделок по продаже, купли и аренде объектов недвижимости под ключ.</p>
+                        <a class="services__btn btn" href="#">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__inner">
+                        <h3 class="services__title">Консьерж сервис</h3>
+                        <p class="services__description">Сопровождение сделок по продаже, купли и аренде объектов недвижимости под ключ.</p>
+                        <a class="services__btn btn" href="#">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="catalog">
+        <div class="container">
+            <h2 class="title">Выберите апартаменты в Москва-Сити</h2>
+            <p class="description">Мы включили в наш каталог все апартаменты доступные для покупки в Москва-Сити</p>
+            <ul class="catalog__filter">
+                <li class="catalog__price"><button class="btn catalog__btn  catalog__btn-active" min-price="0" max-price="">Показать все</button></li>
+                <li class="catalog__price"><button class="btn catalog__btn" min-price="20" max-price="30">От 20-30 млн</button></li>
+                <li class="catalog__price"><button class="btn catalog__btn" min-price="30" max-price="50">От 30-50 млн</button></li>
+                <li class="catalog__price"><button class="btn catalog__btn" min-price="50" max-price="100">От 50-100 млн</button></li>
+                <li class="catalog__price"><button class="btn catalog__btn" min-price="100" max-price="">Более 100 млн</button></li>
+            </ul>
+            <div class="catalog__list">
+            	<div class="catalog__item"  price="25600000">
+            		<img src="pics/catalog/1st.png" alt="" class="catalog__img">
+            		<div class="catalog__inner">
+	            		<h3 class="catalog__title">Апартаменты в «башне ОКО»</h3>
+	            		<p class="catalog__num">Лот № 4536</p>
+	            		<div class="catalog__features">
+	            			<div class="catalog__item-price">
+	            				<p class="catalog__item-full">25 600 000 ₽</p>
+	            				<p class="catalog__item-for-m">365 714 ₽ за м²</p>
+	            			</div>
+	            			<div class="catalog__item-info">
+	            				<p class="catalog__area">Площадь 70 м²</p>
+	            				<p class="catalog__floor">Этаж 52</p>
+	            			</div>
+	            		</div>
+            		</div>
+            		<button class="catalog__item-btn btn">Назначить просмотр</button>
+            	</div>
+            	<div class="catalog__item" price="40900000">
+            		<img src="pics/catalog/2th.png" alt="" class="catalog__img">
+            		<div class="catalog__inner">
+	            		<h3 class="catalog__title">Апартаменты в «башне Империя»</h3>
+	            		<p class="catalog__num">Лот № 4547</p>
+	            		<div class="catalog__features">	
+	            			<div class="catalog__item-price">
+	            				<p class="catalog__item-full">40 900 000 ₽</p>
+	            				<p class="catalog__item-for-m">420 000 ₽ за м²</p>
+	            			</div>
+	            			<div class="catalog__item-info">
+	            				<p class="catalog__area">Площадь 62 м²</p>
+	            				<p class="catalog__floor">Этаж 35</p>
+	            			</div>
+	            		</div>
+            		</div>
+            		<button class="catalog__item-btn btn">Назначить просмотр</button>
+            	</div>
+                <div class="catalog__item"  price="67600000">
+                    <img src="pics/catalog/1st.png" alt="" class="catalog__img">
+                    <div class="catalog__inner">
+                        <h3 class="catalog__title">Апартаменты в «башне ОКО»</h3>
+                        <p class="catalog__num">Лот № 4536</p>
+                        <div class="catalog__features">
+                            <div class="catalog__item-price">
+                                <p class="catalog__item-full">67 600 000 ₽</p>
+                                <p class="catalog__item-for-m">365 714 ₽ за м²</p>
+                            </div>
+                            <div class="catalog__item-info">
+                                <p class="catalog__area">Площадь 70 м²</p>
+                                <p class="catalog__floor">Этаж 52</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="catalog__item-btn btn">Назначить просмотр</button>
+                </div>
+                <div class="catalog__item" price="124900000">
+                    <img src="pics/catalog/2th.png" alt="" class="catalog__img">
+                    <div class="catalog__inner">
+                        <h3 class="catalog__title">Апартаменты в «башне Империя»</h3>
+                        <p class="catalog__num">Лот № 4547</p>
+                        <div class="catalog__features"> 
+                            <div class="catalog__item-price">
+                                <p class="catalog__item-full">124 900 000 ₽</p>
+                                <p class="catalog__item-for-m">420 000 ₽ за м²</p>
+                            </div>
+                            <div class="catalog__item-info">
+                                <p class="catalog__area">Площадь 62 м²</p>
+                                <p class="catalog__floor">Этаж 35</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="catalog__item-btn btn">Назначить просмотр</button>
+                </div>
+                <div class="catalog__item"  price="25600000">
+                    <img src="pics/catalog/1st.png" alt="" class="catalog__img">
+                    <div class="catalog__inner">
+                        <h3 class="catalog__title">Апартаменты в «башне ОКО»</h3>
+                        <p class="catalog__num">Лот № 4536</p>
+                        <div class="catalog__features">
+                            <div class="catalog__item-price">
+                                <p class="catalog__item-full">25 600 000 ₽</p>
+                                <p class="catalog__item-for-m">365 714 ₽ за м²</p>
+                            </div>
+                            <div class="catalog__item-info">
+                                <p class="catalog__area">Площадь 70 м²</p>
+                                <p class="catalog__floor">Этаж 52</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="catalog__item-btn btn">Назначить просмотр</button>
+                </div>
+                <div class="catalog__item" price="40900000">
+                    <img src="pics/catalog/2th.png" alt="" class="catalog__img">
+                    <div class="catalog__inner">
+                        <h3 class="catalog__title">Апартаменты в «башне Империя»</h3>
+                        <p class="catalog__num">Лот № 4547</p>
+                        <div class="catalog__features"> 
+                            <div class="catalog__item-price">
+                                <p class="catalog__item-full">40 900 000 ₽</p>
+                                <p class="catalog__item-for-m">420 000 ₽ за м²</p>
+                            </div>
+                            <div class="catalog__item-info">
+                                <p class="catalog__area">Площадь 62 м²</p>
+                                <p class="catalog__floor">Этаж 35</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="catalog__item-btn btn">Назначить просмотр</button>
+                </div>
+                <div class="catalog__item"  price="67600000">
+                    <img src="pics/catalog/1st.png" alt="" class="catalog__img">
+                    <div class="catalog__inner">
+                        <h3 class="catalog__title">Апартаменты в «башне ОКО»</h3>
+                        <p class="catalog__num">Лот № 4536</p>
+                        <div class="catalog__features">
+                            <div class="catalog__item-price">
+                                <p class="catalog__item-full">67 600 000 ₽</p>
+                                <p class="catalog__item-for-m">365 714 ₽ за м²</p>
+                            </div>
+                            <div class="catalog__item-info">
+                                <p class="catalog__area">Площадь 70 м²</p>
+                                <p class="catalog__floor">Этаж 52</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="catalog__item-btn btn">Назначить просмотр</button>
+                </div>
+                <div class="catalog__item" price="124900000">
+                    <img src="pics/catalog/2th.png" alt="" class="catalog__img">
+                    <div class="catalog__inner">
+                        <h3 class="catalog__title">Апартаменты в «башне Империя»</h3>
+                        <p class="catalog__num">Лот № 4547</p>
+                        <div class="catalog__features"> 
+                            <div class="catalog__item-price">
+                                <p class="catalog__item-full">124 900 000 ₽</p>
+                                <p class="catalog__item-for-m">420 000 ₽ за м²</p>
+                            </div>
+                            <div class="catalog__item-info">
+                                <p class="catalog__area">Площадь 62 м²</p>
+                                <p class="catalog__floor">Этаж 35</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="catalog__item-btn btn">Назначить просмотр</button>
+                </div>
+                <div class="catalog__item"  price="25600000">
+                    <img src="pics/catalog/1st.png" alt="" class="catalog__img">
+                    <div class="catalog__inner">
+                        <h3 class="catalog__title">Апартаменты в «башне ОКО»</h3>
+                        <p class="catalog__num">Лот № 4536</p>
+                        <div class="catalog__features">
+                            <div class="catalog__item-price">
+                                <p class="catalog__item-full">25 600 000 ₽</p>
+                                <p class="catalog__item-for-m">365 714 ₽ за м²</p>
+                            </div>
+                            <div class="catalog__item-info">
+                                <p class="catalog__area">Площадь 70 м²</p>
+                                <p class="catalog__floor">Этаж 52</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="catalog__item-btn btn">Назначить просмотр</button>
+                </div>
+                <div class="catalog__item" price="40900000">
+                    <img src="pics/catalog/2th.png" alt="" class="catalog__img">
+                    <div class="catalog__inner">
+                        <h3 class="catalog__title">Апартаменты в «башне Империя»</h3>
+                        <p class="catalog__num">Лот № 4547</p>
+                        <div class="catalog__features"> 
+                            <div class="catalog__item-price">
+                                <p class="catalog__item-full">40 900 000 ₽</p>
+                                <p class="catalog__item-for-m">420 000 ₽ за м²</p>
+                            </div>
+                            <div class="catalog__item-info">
+                                <p class="catalog__area">Площадь 62 м²</p>
+                                <p class="catalog__floor">Этаж 35</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="catalog__item-btn btn">Назначить просмотр</button>
+                </div>
+                <div class="catalog__item"  price="67600000">
+                    <img src="pics/catalog/1st.png" alt="" class="catalog__img">
+                    <div class="catalog__inner">
+                        <h3 class="catalog__title">Апартаменты в «башне ОКО»</h3>
+                        <p class="catalog__num">Лот № 4536</p>
+                        <div class="catalog__features">
+                            <div class="catalog__item-price">
+                                <p class="catalog__item-full">67 600 000 ₽</p>
+                                <p class="catalog__item-for-m">365 714 ₽ за м²</p>
+                            </div>
+                            <div class="catalog__item-info">
+                                <p class="catalog__area">Площадь 70 м²</p>
+                                <p class="catalog__floor">Этаж 52</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="catalog__item-btn btn">Назначить просмотр</button>
+                </div>
+                <div class="catalog__item" price="124900000">
+                    <img src="pics/catalog/2th.png" alt="" class="catalog__img">
+                    <div class="catalog__inner">
+                        <h3 class="catalog__title">Апартаменты в «башне Империя»</h3>
+                        <p class="catalog__num">Лот № 4547</p>
+                        <div class="catalog__features"> 
+                            <div class="catalog__item-price">
+                                <p class="catalog__item-full">124 900 000 ₽</p>
+                                <p class="catalog__item-for-m">420 000 ₽ за м²</p>
+                            </div>
+                            <div class="catalog__item-info">
+                                <p class="catalog__area">Площадь 62 м²</p>
+                                <p class="catalog__floor">Этаж 35</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="catalog__item-btn btn">Назначить просмотр</button>
+                </div>
+                <div class="catalog__item"  price="25600000">
+                    <img src="pics/catalog/1st.png" alt="" class="catalog__img">
+                    <div class="catalog__inner">
+                        <h3 class="catalog__title">Апартаменты в «башне ОКО»</h3>
+                        <p class="catalog__num">Лот № 4536</p>
+                        <div class="catalog__features">
+                            <div class="catalog__item-price">
+                                <p class="catalog__item-full">25 600 000 ₽</p>
+                                <p class="catalog__item-for-m">365 714 ₽ за м²</p>
+                            </div>
+                            <div class="catalog__item-info">
+                                <p class="catalog__area">Площадь 70 м²</p>
+                                <p class="catalog__floor">Этаж 52</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="catalog__item-btn btn">Назначить просмотр</button>
+                </div>
+                <div class="catalog__item" price="40900000">
+                    <img src="pics/catalog/2th.png" alt="" class="catalog__img">
+                    <div class="catalog__inner">
+                        <h3 class="catalog__title">Апартаменты в «башне Империя»</h3>
+                        <p class="catalog__num">Лот № 4547</p>
+                        <div class="catalog__features"> 
+                            <div class="catalog__item-price">
+                                <p class="catalog__item-full">40 900 000 ₽</p>
+                                <p class="catalog__item-for-m">420 000 ₽ за м²</p>
+                            </div>
+                            <div class="catalog__item-info">
+                                <p class="catalog__area">Площадь 62 м²</p>
+                                <p class="catalog__floor">Этаж 35</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="catalog__item-btn btn">Назначить просмотр</button>
+                </div>
+                <div class="catalog__item"  price="67600000">
+                    <img src="pics/catalog/1st.png" alt="" class="catalog__img">
+                    <div class="catalog__inner">
+                        <h3 class="catalog__title">Апартаменты в «башне ОКО»</h3>
+                        <p class="catalog__num">Лот № 4536</p>
+                        <div class="catalog__features">
+                            <div class="catalog__item-price">
+                                <p class="catalog__item-full">67 600 000 ₽</p>
+                                <p class="catalog__item-for-m">365 714 ₽ за м²</p>
+                            </div>
+                            <div class="catalog__item-info">
+                                <p class="catalog__area">Площадь 70 м²</p>
+                                <p class="catalog__floor">Этаж 52</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="catalog__item-btn btn">Назначить просмотр</button>
+                </div>
+                <div class="catalog__item" price="124900000">
+                    <img src="pics/catalog/2th.png" alt="" class="catalog__img">
+                    <div class="catalog__inner">
+                        <h3 class="catalog__title">Апартаменты в «башне Империя»</h3>
+                        <p class="catalog__num">Лот № 4547</p>
+                        <div class="catalog__features"> 
+                            <div class="catalog__item-price">
+                                <p class="catalog__item-full">124 900 000 ₽</p>
+                                <p class="catalog__item-for-m">420 000 ₽ за м²</p>
+                            </div>
+                            <div class="catalog__item-info">
+                                <p class="catalog__area">Площадь 62 м²</p>
+                                <p class="catalog__floor">Этаж 35</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="catalog__item-btn btn">Назначить просмотр</button>
+                </div>
+        </div>
+        <button class="catalog__item-btn btn catalog__bottom-btn" id="2q">Показать еще</button>
+    </section>
+
+
+    <section class="history">
+        <div class="container">
+            <div class="history__content">
+                <h2 class="title history__title">Blitz Estate - на рынке недвижимости с 2008 года</h2>
+                <p class="history__description">Blitz Estate – международная компания по управлению недвижимостью и финансами. Основана в 2008 г. в Австрии. На сегодня представлена в Англии, Испании, Латвии, ОАЭ, Австрии и России, кроме того имеет партнерскую сеть более чем в десяти странах мира.</p>
+                <p class="history__description">Мы предоставляем услуги полного цикла по приобретению и продаже недвижимости и управлению активами, предоставляя клиентам неизменно высокое качество сервиса. Наш подход позволяет оптимизировать инвестиционный портфель, диверсифицировать риски и обеспечить полную конфиденциальность сделки.</p>
+                <a href="#" class="btn history__btn">Узнать больше</a>
+            </div>
+            <div class="history__photo">
+                    <div class="history__pic"><img src="pics/history_slider/slide1.png" alt=""></div>
+                    <div class="history__small">
+                        <div class="history__pic"><img src="pics/history_slider/slide2.png" alt=""></div>
+                        <div class="history__pic"><img src="pics/history_slider/slide3.png" alt=""></div>
+                        <div class="history__pic"><img src="pics/history_slider/slide4.png" alt=""></div>
+                        <div class="history__pic"><img src="pics/history_slider/slide5.png" alt=""></div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="card">
+        <div class="container">
+            <h2 class="title">Направления нашего агентства</h2>
+            <div class="card__inner">
+                <div class="card__item">
+                    <h3 class="card__title">Аренда жилой недвижимости</h3>
+                    <div class="card__item-inner">
+                        <div class="card__info">
+                            <p class="card__position">Руководитель:</p>
+                            <p class="card__name">Александр Смирнов</p>
+                            <a href="tel:+74951991999" class="card__tel">+7(495)199-19-99</a>
+                            <p class="card__mail">moscow@blitz.estate</p>
+                        </div>
+                        <img src="pics/cards/card1.png" alt="">
+                    </div>
+                </div>
+                <div class="card__item">
+                    <h3 class="card__title">Аренда коммерческой недвижимости</h3>
+                    <div class="card__item-inner">
+                        <div class="card__info">
+                            <p class="card__position">Руководитель:</p>
+                            <p class="card__name">Александр Смирнов</p>
+                            <a href="tel:+74951991999" class="card__tel">+7(495)199-19-99</a>
+                            <p class="card__mail">moscow@blitz.estate</p>
+                        </div>
+                        <img src="pics/cards/card2.png" alt="">
+                    </div>
+                </div>
+                <div class="card__item">
+                    <h3 class="card__title">Отдел блиц-сделок</h3>
+                    <div class="card__item-inner">
+                        <div class="card__info">
+                            <p class="card__position">Руководитель:</p>
+                            <p class="card__name">Александр Смирнов</p>
+                            <a href="tel:+74951991999" class="card__tel">+7(495)199-19-99</a>
+                            <p class="card__mail">moscow@blitz.estate</p>
+                        </div>
+                        <img src="pics/cards/card3.png" alt="">
+                    </div>
+                </div>
+                <div class="card__item">
+                    <h3 class="card__title">Продажа новостроек</h3>
+                    <div class="card__item-inner">
+                        <div class="card__info">
+                            <p class="card__position">Руководитель:</p>
+                            <p class="card__name">Александр Смирнов</p>
+                            <a href="tel:+74951991999" class="card__tel">+7(495)199-19-99</a>
+                            <p class="card__mail">moscow@blitz.estate</p>
+                        </div>
+                        <img src="pics/cards/card4.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="card__links">
+                <a href="#" class="card__link">Blitz Estate – международная компания по управлению недвижимостью и финансами</a>
+                <a href="#" class="card__link">Blitz Estate – международная компания по управлению недвижимостью и финансами</a>
+                <a href="#" class="card__link">Blitz Estate – международная компания по управлению недвижимостью и финансами</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="container">
+            <div class="info__inner">
+                <h2 class="title">Руководитель агентства <br> Blitz Estate</h2>
+                <h3 class="info__name">Георгий Мебония</h3>
+                <p class="info__description">Вице-президент по проектам в ММДЦ «Москва-Сити», Генеральный директор компании Blitz Estate в России.</p>
+                <p class="info__description">Имея европейский опыт работы и показывая верность своему делу являемся стратегическим партнером ММДЦ «Москва-Сити с 2013 года на эксклюзивной реализации объектов приватных к продаже.</p>
+                <p class="info__description">Благодаря кропотливому и теплому отношению нам удается быстро и эффективно оказывать нашим клиентам услуги высочайшего уровня в сфере недвижимости.</p>
+                <button class="btn info__btn">Задать вопрос</button>
+            </div>
+            <img src="pics/photo.png" alt="" class="info__photo">
+        </div>
+    </section>
+             
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__info">
+                <p class="footer__time-title">Время работы: </p>
+                <p class="footer__time">Пн-Пт: 8:00-23:00, Сб-Вс: 9:00-21:00</p>
+                <p class="footer__adress">Пресненская набережная, дом 12 Башня "Федерация"  Восток, 31 этаж, Офис Р</p>
+                <p class="footer__OGRN">ОГРН: 1187746683464</p>
+                <p class="footer__INN">ИНН: 7703462548</p>
+            </div>
+            <a class="logo footer__logo" href="#">
+                    <img class="logo__img" src="pics/logo-white.svg" alt="logo">
+                    <p class="logo__text">Продажа недвижимости<br> в Москва-Сити</p>
+            </a>
+            <div class="contacts">
+                <a href="tel:+74951991999" class="contacts__tel">+7 (495) 199-19-99</a>
+                <a href="#" class="contacts__mail">moscow@blitz.estate</a>
+                <button class="contacts__btn-footer btn">Заказать звонок</button>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
